@@ -10,8 +10,7 @@ import {
 } from "@modelcontextprotocol/sdk/types.js";
 import axios from "axios";
 
-// Import our Productive.io app configuration
-import productiveApp from "./productive_io.app.mjs";
+// Import our constants
 import constants from "./common/constants.mjs";
 
 class ProductiveMCPServer {
