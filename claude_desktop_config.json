@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "productive-io": {
+      "command": "node",
+      "args": ["/workspace/mcp-server.js"],
+      "env": {
+        "PRODUCTIVE_AUTH_TOKEN": "902441be-ad05-4442-a920-e9a426e2f44c",
+        "PRODUCTIVE_ORGANIZATION_ID": "46295"
+      }
+    }
+  }
+}
