@@ -1,0 +1,30 @@
+{
+  "name": "productive-io-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Productive.io API integration",
+  "type": "module",
+  "main": "mcp-server.js",
+  "bin": {
+    "productive-io-mcp-server": "./mcp-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "productive.io",
+    "project-management",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "axios": "^1.6.0"
+  },
+  "scripts": {
+    "start": "node mcp-server.js",
+    "dev": "node --inspect mcp-server.js",
+    "test": "node test-server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
